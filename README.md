@@ -1,6 +1,6 @@
 参加或留意了最近举行的[JSConf CN 2017](https://www.zhihu.com/question/62154473/answer/200045569)的同学，想必对 Next.js 不再陌生， Next.js 的作者之一到场进行了精彩的演讲。其实在更早些时候，由 Facebook 举办的 React Conf 2017，他就到场并有近40分钟的分享。但两次分享带来的 demo 都是 hacker news。我观察 Next.js 时间较长，看着它从1.x 版本一直到了今天的 3.x，终于决定写一篇入门级的新手指导文章。而这篇文章试图通过一个全新的例子，来让大家了解 Next.js 到底是如何与 React 配合，达到服务端渲染的。
 
-“React universal” 是社区上形容基于 React 构建 web 应用，并采用“服务端渲染”方式的一个词语。也许很多人对 “isomorphic” 这个单词更加熟悉，其实这两个词语想要表达的概念类似。今天这篇文章显然不是讨论这两个词语的，**我们要尝试使用最新版 [Next.js](https://github.com/zeit/next.js)，构件一个简单的服务端渲染 React 应用。**最终项目地址可以[点击这里查看。](https://github.com/HOUCe/server-side-cache-with-express)
+“React universal” 是社区上形容基于 React 构建 web 应用，并采用“服务端渲染”方式的一个词语。也许很多人对 “isomorphic” 这个单词更加熟悉，其实这两个词语想要表达的概念类似。今天这篇文章显然不是讨论这两个词语的，**我们要尝试使用最新版 [Next.js](https://github.com/zeit/next.js)，构件一个简单的服务端渲染 React 应用。**最终项目地址可以[点击这里查看。](https://github.com/HOUCe/server-side-react-football)
 
 ## 为何要开发 Universal 应用？
 
@@ -365,7 +365,7 @@ Next 还提供了 getInitialProps 方法，这个方法支持异步选项，并�
 - 再如动态加载组件（Next.js 支持 TC39 dynamic import proposal），从而减少首次 bundle size；
 - 虽然它替我们封装好了 Webpack、Babel 等工具，但是我们又能 customizing，根据需要自定义。
 
-最后，对于这些本文章没有演示到的功能是否有些手痒？感兴趣的读者可以关注本文 demo 的[Github项目地址]()，自己手动尝试起来吧～
+最后，对于这些本文章没有演示到的功能是否有些手痒？感兴趣的读者可以关注本文 demo 的[Github项目地址](https://github.com/HOUCe/server-side-react-football)，自己手动尝试起来吧～
 
 
 
