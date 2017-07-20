@@ -12,7 +12,8 @@
     "async-reactor": "^1.1.1",
     "next": "^3.0.1-beta.17",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "axios": "^0.15.3"
   },
   "author": "",
   "license": "ISC"
